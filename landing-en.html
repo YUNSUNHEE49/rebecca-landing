@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3451708382573505"
+     crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rebecca — AI-Powered English Learning for Kids</title>
+    <style>
+      :root {
+        --ink: #15171a;
+        --muted: #616973;
+        --paper: #f8f5ef;
+        --line: rgba(21, 23, 26, 0.12);
+        --gold: #d9a441;
+        --green: #24493f;
+        --white: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Tahoma, Arial, sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .hero {
+        min-height: 88vh;
+        display: grid;
+        grid-template-rows: auto 1fr;
+        background:
+          linear-gradient(90deg, rgba(7, 17, 15, 0.82), rgba(7, 17, 15, 0.36)),
+          url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1800&q=80")
+            center/cover;
+        color: var(--white);
+      }
+
+      .nav,
+      .hero-inner,
+      .section {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      .nav {
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+
+      .brand {
+        font-size: 24px;
+        font-weight: 800;
+      }
+
+      .links {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        font-size: 15px;
+      }
+
+      .hero-inner {
+        display: flex;
+        align-items: center;
+        padding: 56px 0 80px;
+      }
+
+      .copy {
+        max-width: 690px;
+      }
+
+      .eyebrow {
+        margin: 0 0 18px;
+        color: #f1d99b;
+        font-weight: 700;
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 780px;
+        font-size: clamp(42px, 7vw, 86px);
+        line-height: 1.05;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        margin: 24px 0 34px;
+        max-width: 610px;
+        color: rgba(255, 255, 255, 0.86);
+        font-size: 20px;
+        line-height: 1.8;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+
+      .button {
+        min-height: 48px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        padding: 0 22px;
+        font-weight: 800;
+      }
+
+      .primary {
+        background: var(--gold);
+        color: #17120a;
+      }
+
+      .secondary {
+        border: 1px solid rgba(255, 255, 255, 0.42);
+        color: var(--white);
+      }
+
+      .section {
+        padding: 56px 0;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+
+      .stat,
+      .feature {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.62);
+        padding: 24px;
+      }
+
+      .stat strong {
+        display: block;
+        color: var(--green);
+        font-size: 34px;
+        margin-bottom: 8px;
+      }
+
+      .stat span,
+      .feature p {
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .section-title {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 24px;
+        margin-bottom: 24px;
+      }
+
+      h2 {
+        margin: 0;
+        color: var(--green);
+        font-size: clamp(28px, 4vw, 44px);
+      }
+
+      .section-title p {
+        margin: 0;
+        max-width: 480px;
+        color: var(--muted);
+        line-height: 1.8;
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+
+      .feature h3 {
+        margin: 0 0 10px;
+        font-size: 20px;
+      }
+
+      .feature p {
+        margin: 0;
+      }
+
+      .cta {
+        margin: 8px auto 64px;
+        width: min(1120px, calc(100% - 40px));
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        overflow: hidden;
+        border-radius: 8px;
+        background: var(--green);
+        color: var(--white);
+      }
+
+      .cta-text {
+        padding: 40px;
+      }
+
+      .cta-text h2 {
+        color: var(--white);
+      }
+
+      .cta-text p {
+        color: rgba(255, 255, 255, 0.78);
+        line-height: 1.8;
+        font-size: 18px;
+      }
+
+      .cta-image {
+        min-height: 280px;
+        background: url("https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80")
+          center/cover;
+      }
+
+      @media (max-width: 760px) {
+        .hero {
+          min-height: 84vh;
+        }
+
+        .links {
+          display: none;
+        }
+
+        .hero-inner {
+          padding: 42px 0 64px;
+        }
+
+        .lead {
+          font-size: 17px;
+        }
+
+        .stats,
+        .features,
+        .cta {
+          grid-template-columns: 1fr;
+        }
+
+        .section-title {
+          display: block;
+        }
+
+        .section-title p {
+          margin-top: 12px;
+        }
+
+        .cta-text {
+          padding: 30px 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#">Rebecca</a>
+        <div class="links">
+          <a href="#features">Features</a>
+          <a href="#results">Results</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </nav>
+
+      <div class="hero-inner">
+        <div class="copy">
+          <p class="eyebrow">AI English Diagnostic Platform</p>
+          <h1>Your Child's Personalized English Learning Roadmap — Powered by NELT, Lexile, and AI</h1>
+          <p class="lead">
+            Take a free NELT diagnostic to find your child's current English level, then get Lexile-based book recommendations and a learning plan built just for them.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#contact">Start Free Diagnostic</a>
+            <a class="button secondary" href="#features">Explore Features</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="results">
+        <div class="stats">
+          <div class="stat">
+            <strong>30%</strong>
+            <span>Average Lexile growth families report within the first three months.</span>
+          </div>
+          <div class="stat">
+            <strong>24/7</strong>
+            <span>A progress dashboard you can check anytime, day or night.</span>
+          </div>
+          <div class="stat">
+            <strong>15+</strong>
+            <span>Curated book lists matched to every Lexile level.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="section-title">
+          <h2>Everything your child needs to grow as a reader</h2>
+          <p>
+            We built this experience to be simple, practical, and fast —
+            made for busy families who want real results.
+          </p>
+        </div>
+        <div class="features">
+          <article class="feature">
+            <h3>NELT Diagnostic</h3>
+            <p>A quick, reliable assessment that pinpoints your child's exact English reading level.</p>
+          </article>
+          <article class="feature">
+            <h3>Real-Time Progress Reports</h3>
+            <p>See exactly what's working and what needs support, all from one clear dashboard.</p>
+          </article>
+          <article class="feature">
+            <h3>Smart Recommendations</h3>
+            <p>Save time with AI-powered book picks and learning reminders that grow with your child.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta" id="contact">
+        <div class="cta-text">
+          <h2>Ready to give your child a clearer path to reading success?</h2>
+          <p>
+            Start your child's personalized English learning journey today.
+            Get a free, Lexile-based roadmap tailored to their level in just a few minutes.
+          </p>
+          <a class="button primary" href="mailto:hello@example.com">Book a Free Trial</a>
+        </div>
+        <div class="cta-image" aria-label="Parent and child reading together"></div>
+      </section>
+    </main>
+  </body>
+</html>
